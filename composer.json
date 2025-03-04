@@ -1,6 +1,6 @@
 {
-    "name": "ghostunicorns/module-webapi-logs",
-    "description": "Magento Webapi Log Details accessible via backend",
+    "name": "ssx/module-webapi-logs",
+    "description": "This module allows you to log and analyze all webapi REST calls to your Magento/Adobe Commerce store.",
     "type": "magento2-module",
     "require": {
         "magento/framework": "*",
@@ -28,7 +28,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "GhostUnicorns\\WebapiLogs\\": ""
+            "Ssx\\WebapiLogs\\": ""
         }
     }
 }
